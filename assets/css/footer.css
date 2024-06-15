@@ -1,0 +1,33 @@
+.footer-index {
+    background-color: var(--gray-900);
+    color: var(--white);
+    padding: 2rem 0;
+    margin: 0 auto;
+    height: 15vh;
+    display: flex;
+}
+
+.footer-index-container {
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-index links {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-index ul li {
+    display: inline;
+    margin-right: 2rem ;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+}

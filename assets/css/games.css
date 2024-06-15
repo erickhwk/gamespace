@@ -1,0 +1,43 @@
+main h1 {
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    background-color: var(--detail-2);
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.games-row {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.game-card {
+    position: relative
+}
+
+
+.rating {
+    position: absolute;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+    top: 0.75rem;
+    right: 1.25rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notable-section, .popular-section {
+    margin-top: 4rem;
+}
