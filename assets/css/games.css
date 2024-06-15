@@ -41,3 +41,10 @@ main h1 {
 .notable-section, .popular-section {
     margin-top: 4rem;
 }
+
+.game-image {
+    width: 292px;
+    height: 380px;
+    object-fit: cover;
+
+}
