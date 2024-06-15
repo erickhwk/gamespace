@@ -1,0 +1,5 @@
+.ui-accordion {
+    width: 30rem;
+    max-width: 100%;
+    font-size: var(--text-sm);
+  }
